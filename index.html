@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vansh Singh | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            padding: 80px 50px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .section {
+            padding: 60px 50px;
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            color: #38bdf8;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #1e293b;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e293b;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Vansh Singh</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Hello, I'm <span>Vansh Singh</span></h2>
+        <p>B.Tech Computer Science Student at VIT Bhopal University</p>
+        <p>Aspiring Software Developer | C | Python | Web Development</p>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a first-year B.Tech Computer Science student at VIT Bhopal University.
+            Currently building strong foundations in C and Python programming.
+            I am passionate about learning new technologies and solving real-world problems through code.
+        </p>
+    </section>
+
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>C Programming</span>
+            <span>Python</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Problem Solving</span>
+            <span>Basic Web Development</span>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Student Registration System</h3>
+                <p>Built using C language. Stores and manages student records using structures and functions.</p>
+            </div>
+
+            <div class="card">
+                <h3>Python Calculator</h3>
+                <p>A simple console-based calculator performing arithmetic operations.</p>
+            </div>
+
+            <div class="card">
+                <h3>Basic Portfolio Website</h3>
+                <p>Created using HTML and CSS to showcase my skills and projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: vansh.25bce10723@vitbhopal.ac.in</p>
+        <p><a href="https://www.linkedin.com/in/vansh-singh-b9736337b/">Linkedin</a></p>
+        <p><a href="https://github.com/vansh25bce10723-has">Github</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Vansh Singh | Made with ❤️</p>
+    </footer>
+
+</body>
+
+</html>
