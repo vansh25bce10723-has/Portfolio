@@ -1,8 +1,8 @@
 # 🌐 Digital Literacy Portfolio
 
 ## 👤 Student Details
-- **Name:** Your Name  
-- **Registration Number:** Your Reg No.  
+- **Name:Vansh singh
+- **Registration Number:25BCE10723
 - **Branch:** Computer Science Engineering  
 - **Year:** 1st Year  
 
